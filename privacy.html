@@ -22,7 +22,7 @@
   <main>
     <div class="wrap">
       <h1>Privacy Policy</h1>
-      <p class="meta">Effective 1 October 2026</p>
+      <p class="meta">Effective 7 November 2026</p>
 
       <p>This policy explains what data the Telos Android app ("Telos", "the app") handles, where it is kept and what control you have over it. Telos is developed by Mohd Hussain Ahmed, an individual developer based in India ("we", "us"). You can reach us at <a href="mailto:telosapp3@gmail.com">telosapp3@gmail.com</a>.</p>
 
@@ -30,7 +30,8 @@
         <p><strong>In short</strong></p>
         <ul>
           <li>Your journal, plans, notes, sessions and browsing stay <strong>on your phone</strong>. We never receive them.</li>
-          <li>Our servers hold only your <strong>account details</strong>: your email address, an account ID and, if you sign in with Google, your name and profile photo link.</li>
+          <li>Our servers hold only your <strong>account details</strong>: your email address, an account ID and, if you sign in with Google, your name and profile photo link. If you subscribe to Telos Premium, they also hold your <strong>subscription status</strong>.</li>
+          <li>Payments are handled by <strong>Google Play</strong>. We never see your card, UPI or other payment details.</li>
           <li>There are <strong>no ads, no analytics and no tracking</strong>, and we do not sell or share your data.</li>
           <li>You can <a href="delete-account.html">delete your account</a> at any time, in the app or by email.</li>
         </ul>
@@ -51,7 +52,7 @@
       <p>Files you download in the in-app browser are saved to your phone's shared <strong>Downloads</strong> folder, like downloads from any other browser. They are ordinary files that belong to you. Clearing Telos's storage or uninstalling Telos does not delete them. You can manage them in your phone's Files app.</p>
 
       <h2>2. Account data</h2>
-      <p>Telos asks you to sign in with Google or with a one-time code sent to your email address. When you sign in, we receive and store:</p>
+      <p>Signing in is optional. You can use Telos without an account; an account is needed only to buy or restore Telos Premium. Notes you write while signed in stay on your phone and are shown only while that account is signed in. You can sign in with Google or with a one-time code sent to your email address. When you sign in, we receive and store:</p>
       <div class="table-scroll">
         <table>
           <thead>
@@ -63,16 +64,21 @@
             <tr><td>Profile photo link and Google account identifier (Google sign-in only)</td><td>Included automatically in the sign-in details Google provides. Telos doesn't display your photo or use it for anything else.</td></tr>
             <tr><td>Account ID and sign-in method</td><td>To recognise your account across sign-ins</td></tr>
             <tr><td>Sign-in timestamps, IP address and basic device or browser information</td><td>Recorded automatically by our authentication provider for security and abuse prevention</td></tr>
+            <tr><td>Subscription status (Telos Premium only): plan, status, expiry date, whether it will renew, any payment issue, and the store it was bought from</td><td>To unlock Telos Premium for your account, including on a new phone</td></tr>
+            <tr><td>Billing event records (Telos Premium only), sent to us by RevenueCat: event type, product, price, currency, country, transaction identifiers and dates</td><td>To keep your subscription status accurate, to avoid processing the same event twice, and to help with support requests</td></tr>
           </tbody>
         </table>
       </div>
-      <p>We use this data only to provide sign-in and to keep your account secure. We do not use it for advertising or profiling. Your sign-in session is stored on your phone in Android's encrypted secure storage.</p>
+      <p>We never receive your card, UPI or other payment details. We use this data only to provide sign-in, to provide Telos Premium and to keep your account secure. We do not use it for advertising or profiling. Your sign-in session is stored on your phone in Android's encrypted secure storage.</p>
+
+      <p>If you email us, for example to ask for a refund, we use your email address, your message and any order number you send only to handle your request.</p>
 
       <h2>3. Service providers</h2>
-      <p>We use these providers to run the account system. They process data on our behalf, under their own security and privacy terms:</p>
+      <p>We use these providers to run the account system and Telos Premium. They process data on our behalf, under their own security and privacy terms:</p>
       <ul>
-        <li><strong>Supabase</strong> provides the authentication infrastructure and stores your account data on its servers. It also sends the one-time sign-in codes by email. See the <a href="https://supabase.com/privacy" rel="noopener">Supabase Privacy Policy</a>.</li>
-        <li><strong>Google</strong> handles "Continue with Google" sign-in and shares your name, email address and profile photo link with us when you choose it. See <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</li>
+        <li><strong>Supabase</strong> hosts authentication and stores your account data on servers in Supabase's Asia region. It also sends the one-time sign-in codes by email. See the <a href="https://supabase.com/privacy" rel="noopener">Supabase Privacy Policy</a>.</li>
+        <li><strong>Google</strong> handles "Continue with Google" sign-in and shares your name, email address and profile photo link with us when you choose it. <strong>Google Play</strong> processes Telos Premium payments, under Google's own terms. See <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</li>
+        <li><strong>RevenueCat</strong> manages Telos Premium subscriptions and checks your purchases with Google Play. It receives your Telos account ID (not your name or email address), your purchase and subscription records, and basic technical details such as your IP address, Android version and app version. We don't share advertising IDs or device identifiers with it. See the <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat Privacy Policy</a>.</li>
       </ul>
       <p>Because these providers run infrastructure in several countries, your account data may be processed outside India. We do not sell, rent or share your personal data with anyone else, except where the law requires us to.</p>
 
@@ -104,7 +110,8 @@
       <p>It only reads your phone's Colour correction setting and triggers the accessibility shortcut that turns it on or off. You can turn it off at any time in <strong>Android Settings → Accessibility → Installed apps → Telos</strong>.</p>
 
       <h2>6. How long we keep data</h2>
-      <p>We keep your account data while your account exists. When you delete your account, we remove it from our authentication system immediately. Any copies in our provider's routine backups are removed as those backups expire, within 30 days. Data on your phone stays until you clear it or uninstall the app. See <a href="delete-account.html">Delete your account</a>.</p>
+      <p>We keep your account data, including your subscription status and billing event records, while your account exists. When you delete your account, we remove it immediately, and we ask RevenueCat to delete its record of you. Any copies in our provider's routine backups are removed as those backups expire, within 30 days. Data on your phone stays until you clear it or uninstall the app. See <a href="delete-account.html">Delete your account</a>.</p>
+      <p>Deleting your account does <strong>not</strong> cancel a Telos Premium subscription. Cancel it in <a href="https://play.google.com/store/account/subscriptions" rel="noopener">Google Play</a>. If you don't, Google Play keeps renewing it and Google and RevenueCat keep processing those payments, but we no longer keep any of their details linked to you. Google and RevenueCat may keep records of purchases you made where they must for tax, accounting or legal reasons, under their own policies.</p>
 
       <h2>7. Your rights</h2>
       <p>Under India's Digital Personal Data Protection Act, 2023, and other laws that may apply to you, you can:</p>
@@ -116,7 +123,7 @@
         <li>nominate another person to exercise these rights on your behalf if you die or become incapacitated</li>
         <li>raise a grievance with us, and if it is not resolved, complain to the Data Protection Board of India</li>
       </ul>
-      <p>To make a request, email <a href="mailto:telosapp3@gmail.com">telosapp3@gmail.com</a> from the address linked to your account. We will respond within 30 days.</p>
+      <p>These rights cover your subscription data too. To make a request, email <a href="mailto:telosapp3@gmail.com">telosapp3@gmail.com</a> from the address linked to your account. We will respond within 30 days.</p>
 
       <h3>Grievance Officer</h3>
       <div class="card">
@@ -125,7 +132,7 @@
       </div>
 
       <h2>8. Security</h2>
-      <p>Data sent between the app and our servers is encrypted in transit (HTTPS). Your sign-in session is kept in Android's encrypted secure storage. Account deletion is handled on our server and only ever acts on the account that is signed in. No system is perfectly secure, but we limit what we collect, which limits what could ever be exposed.</p>
+      <p>Data sent between the app and our servers is encrypted in transit (HTTPS). Your sign-in session is kept in Android's encrypted secure storage. Account deletion is handled on our server and only ever acts on the account that is signed in. Subscription updates from RevenueCat must carry a secret key, and we confirm each one with RevenueCat before storing it. No system is perfectly secure, but we limit what we collect, which limits what could ever be exposed.</p>
 
       <h2>9. Children</h2>
       <p>Telos is not intended for children under 18, and we do not knowingly collect personal data from them. If you believe a child has created an account, contact us and we will delete it.</p>
