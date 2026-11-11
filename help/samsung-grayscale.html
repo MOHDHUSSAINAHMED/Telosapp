@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Set up true greyscale on Samsung — Telos Help</title>
+  <meta name="description" content="Step-by-step guide to setting up Telos's true greyscale on a Samsung device: Accessibility, Colour correction and the shortcut.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="../">Telos</a>
+      <nav class="site">
+        <a href="./" aria-current="page">Help</a>
+        <a href="../privacy.html">Privacy</a>
+        <a href="../terms.html">Terms</a>
+        <a href="../delete-account.html">Delete account</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <p class="crumbs"><a href="./">Help</a> › Samsung greyscale setup</p>
+      <h1>Set up true greyscale on Samsung</h1>
+      <p class="meta">Last updated: <time datetime="2026-11-10">10 November 2026</time></p>
+
+      <p>On Samsung devices, Telos turns your screen grey using Android's own <strong>Colour correction</strong> setting. Setting it up takes a few minutes and three changes in Settings. You only do it once.</p>
+
+      <div class="callout">
+        <p><strong>Using a phone that isn't Samsung?</strong> You don't need this guide. Telos uses Do Not Disturb access on other phones and asks for it during setup.</p>
+      </div>
+
+      <h2>What you'll do</h2>
+      <ol>
+        <li><a href="#step-1">Turn on Telos in Accessibility settings.</a></li>
+        <li><a href="#step-2">Set Colour correction to Greyscale.</a></li>
+        <li><a href="#step-3">Add the Colour correction shortcut.</a></li>
+        <li><a href="#step-4">Go back to Telos and finish.</a></li>
+      </ol>
+      <p>Telos marks each one as done when you finish it, so you can always see what's left. Your screens may look a little different from the screenshots, depending on your device. Follow the menu names.</p>
+
+      <h2>Why Telos needs this</h2>
+      <p>During a session, Telos switches Colour correction to greyscale, and back to colour when the session ends. To do that, it needs its Accessibility service turned on. The service only presses Android's own Colour correction shortcut. It can't read what's on your screen, can't see which apps you open and doesn't collect personal information.</p>
+
+      <h2 id="step-1">Step 1: Turn on Telos in Accessibility settings</h2>
+      <ol class="steps">
+        <li>
+          <p>In Telos, on the greyscale setup screen, tap <strong>Allow</strong> next to <strong>Accessibility access</strong>.</p>
+          <figure>
+            <a href="img/samsung-1-telos-allow-accessibility.jpg"><img src="img/samsung-1-telos-allow-accessibility.jpg" width="999" height="1599" loading="lazy" alt="The Telos setup screen titled Enable grayscale outside Telos, with three cards. The Accessibility access card, with an Allow button, is outlined in red."></a>
+            <figcaption>The Accessibility access card in Telos.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Telos explains why it needs Accessibility. Read it, then tap <strong>Continue</strong>. Settings opens.</p>
+          <figure>
+            <a href="img/samsung-1-telos-why-accessibility.jpg"><img src="img/samsung-1-telos-why-accessibility.jpg" width="999" height="1599" loading="lazy" alt="A Telos pop-up titled Why accessibility, listing what the service does not do. The Continue button is outlined in red."></a>
+            <figcaption>Telos's explanation. Tap Continue to open Settings.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>On the <strong>Accessibility</strong> screen, tap <strong>Installed apps</strong>.</p>
+          <figure>
+            <a href="img/samsung-1-settings-accessibility-installed-apps.jpg"><img src="img/samsung-1-settings-accessibility-installed-apps.jpg" width="999" height="1599" loading="lazy" alt="The Samsung Accessibility settings screen. Installed apps is outlined in red."></a>
+            <figcaption>Settings › Accessibility › Installed apps.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Tap <strong>Telos</strong>. It shows <strong>Off</strong> for now.</p>
+          <figure>
+            <a href="img/samsung-1-settings-installed-apps-telos.jpg"><img src="img/samsung-1-settings-installed-apps-telos.jpg" width="999" height="1599" loading="lazy" alt="The Installed apps list. Telos, showing Off, is outlined in red."></a>
+            <figcaption>Telos is listed under Installed apps.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Turn the switch at the top <strong>On</strong>. Android asks <em>“Allow Telos to have full control of your device?”</em> Tap <strong>Allow</strong>.</p>
+          <figure>
+            <a href="img/samsung-1-settings-allow-full-control.jpg"><img src="img/samsung-1-settings-allow-full-control.jpg" width="999" height="1599" loading="lazy" alt="Android's Allow Telos to have full control of your device prompt, with Uninstall, Deny and Allow buttons. Allow is outlined in red."></a>
+            <figcaption>Android's standard Accessibility prompt.</figcaption>
+          </figure>
+          <p>This wording is the same for every Accessibility service. Telos's service is set up so that it can't read your screen content and is sent no screen events. See <a href="../privacy.html">our Privacy Policy</a> for what Telos collects.</p>
+        </li>
+        <li>
+          <p>Go back to Telos (swipe back, or open Telos from your recent apps). The <strong>Accessibility access</strong> card now shows <strong>Granted</strong>.</p>
+        </li>
+      </ol>
+
+      <h3 id="restricted-settings">If Android blocks the switch (“Restricted setting”)</h3>
+      <p>On Android 13 and later, Android can block Accessibility for an app until you allow “restricted settings”. This mainly affects apps that were not installed from the Play Store. If the Telos switch is greyed out, or a “Restricted setting” message appears, do this:</p>
+      <ol>
+        <li>Open <strong>Settings › Apps</strong> and tap <strong>Telos</strong>. If you can't find it, tap <strong>See all apps</strong>.</li>
+        <li>Tap the <strong>More</strong> menu (⋮) at the top right.</li>
+        <li>Tap <strong>Allow restricted settings</strong> and follow the prompts.</li>
+        <li>Go back to <strong>Settings › Accessibility › Installed apps › Telos</strong> and turn it on.</li>
+      </ol>
+      <p>If there is no <strong>Allow restricted settings</strong> option, you don't need it. Google describes this setting in <a href="https://support.google.com/android/answer/12623953" rel="noopener">Learn about restricted settings</a>.</p>
+
+      <h2 id="step-2">Step 2: Set Colour correction to Greyscale</h2>
+      <p>In Telos, tap <strong>Allow</strong> on the <strong>Greyscale mode</strong> card. Accessibility settings opens. From there:</p>
+      <ol class="steps">
+        <li>
+          <p>On the <strong>Accessibility</strong> screen, tap <strong>Vision enhancements</strong>.</p>
+          <figure>
+            <a href="img/samsung-2-settings-accessibility-vision-enhancements.jpg"><img src="img/samsung-2-settings-accessibility-vision-enhancements.jpg" width="999" height="1599" loading="lazy" alt="The Samsung Accessibility settings screen. Vision enhancements is outlined in red."></a>
+            <figcaption>Settings › Accessibility › Vision enhancements.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Under <strong>Colours and clarity</strong>, tap <strong>Colour correction</strong>.</p>
+          <figure>
+            <a href="img/samsung-2-settings-vision-enhancements-colour-correction.jpg"><img src="img/samsung-2-settings-vision-enhancements-colour-correction.jpg" width="999" height="1599" loading="lazy" alt="The Vision enhancements screen. Colour correction, showing Off, is outlined in red."></a>
+            <figcaption>Colour correction is in the Colours and clarity section.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>In the list of modes, choose <strong>Greyscale</strong>.</p>
+          <figure>
+            <a href="img/samsung-2-settings-colour-correction-greyscale.jpg"><img src="img/samsung-2-settings-colour-correction-greyscale.jpg" width="999" height="1599" loading="lazy" alt="The Colour correction screen with the modes Deutan, Protan, Tritan and Greyscale. Greyscale is selected and outlined in red."></a>
+            <figcaption>Greyscale selected on the Colour correction screen.</figcaption>
+          </figure>
+          <p>You don't need to turn on the <strong>Off</strong> switch at the top of this screen. Telos turns Colour correction on during a session and off again afterwards.</p>
+        </li>
+      </ol>
+      <p>Go back to Telos. Its <strong>Greyscale mode</strong> card shows <strong>Granted</strong> once the mode is set.</p>
+      <div class="callout">
+        <p><strong>Already using Colour correction for colour blindness?</strong> If Colour correction is on with a different mode, Telos treats it as an accessibility accommodation you rely on. It will not change it and will not ask you to. In that case Telos tells you this and skips true greyscale.</p>
+      </div>
+
+      <h2 id="step-3">Step 3: Add the Colour correction shortcut</h2>
+      <p>Telos starts and stops greyscale by using the Colour correction shortcut, so that shortcut has to be set up.</p>
+      <ol class="steps">
+        <li>
+          <p>Go back to the <strong>Colour correction</strong> screen from step 2. Tap the words <strong>Colour correction shortcut</strong>, not the switch beside them.</p>
+          <figure>
+            <a href="img/samsung-3-colour-correction-shortcut-row.jpg"><img src="img/samsung-3-colour-correction-shortcut-row.jpg" width="999" height="1599" loading="lazy" alt="The Colour correction screen. The Colour correction shortcut row is outlined in red."></a>
+            <figcaption>Tap the name of the Colour correction shortcut row.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Turn the switch at the top <strong>On</strong>.</p>
+          <figure>
+            <a href="img/samsung-3-shortcut-switch.jpg"><img src="img/samsung-3-shortcut-switch.jpg" width="999" height="1599" loading="lazy" alt="The Colour correction shortcut screen, currently Off. The switch at the top right is outlined in red."></a>
+            <figcaption>The switch at the top of the Colour correction shortcut screen.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Make sure <strong>Use Accessibility gesture</strong> is ticked. Then tap the <strong>gear</strong> (⚙) next to it.</p>
+          <figure>
+            <a href="img/samsung-3-shortcut-gesture-gear.jpg"><img src="img/samsung-3-shortcut-gesture-gear.jpg" width="999" height="1599" loading="lazy" alt="The Colour correction shortcut screen, now On, with Use Accessibility gesture ticked. The gear icon next to it is outlined in red."></a>
+            <figcaption>The gear next to Use Accessibility gesture opens its settings.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Under <strong>Location</strong>, choose <strong>Swipe up with 2 fingers from bottom of screen</strong>. <strong>Select actions</strong> at the top should say <strong>Colour correction</strong>.</p>
+          <figure>
+            <a href="img/samsung-3-gesture-swipe-two-fingers.jpg"><img src="img/samsung-3-gesture-swipe-two-fingers.jpg" width="999" height="1599" loading="lazy" alt="The Accessibility button/gesture screen. Select actions shows Colour correction. Under Location, Swipe up with 2 fingers from bottom of screen is selected and outlined in red."></a>
+            <figcaption>Choose the two-finger swipe from the bottom of the screen.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Go back. On the Colour correction shortcut screen, <strong>Use Accessibility gesture</strong> should be ticked. Samsung may also tick <strong>Tap button in quick settings panel</strong>, and that is fine to leave.</p>
+          <figure>
+            <a href="img/samsung-3-shortcut-final.jpg"><img src="img/samsung-3-shortcut-final.jpg" width="999" height="1599" loading="lazy" alt="The Colour correction shortcut screen, On. Tap button in quick settings panel and Use Accessibility gesture are both ticked and outlined in red."></a>
+            <figcaption>The finished shortcut screen.</figcaption>
+          </figure>
+        </li>
+      </ol>
+      <div class="callout">
+        <p><strong>Use the two-finger swipe.</strong> The other shortcut options, such as the quick settings panel button, don't work with Telos on their own.</p>
+      </div>
+
+      <h2 id="step-4">Step 4: Go back to Telos and finish</h2>
+      <p>Return to Telos. It checks your Settings again each time you open it, so all three cards should now read <strong>Granted</strong>.</p>
+      <ul>
+        <li><strong>During first-time setup:</strong> tap <strong>Continue</strong>. This turns on true greyscale.</li>
+        <li><strong>Later, from Settings:</strong> in Telos, open <strong>Settings › Permissions › True greyscale</strong>. Once the last step is done, Telos turns true greyscale on by itself and shows “True greyscale is on for this app.” If it still says “Not enabled yet”, tap <strong>Use true greyscale</strong>.</li>
+      </ul>
+      <p>To check it works, start a session and leave Telos. Your screen should turn grey outside Telos, and Telos itself stays in colour. When the session ends, colour returns.</p>
+      <p>To turn it off later, open the same screen in Telos and tap <strong>Turn off true greyscale</strong>.</p>
+
+      <h2 id="troubleshooting">Troubleshooting</h2>
+
+      <details>
+        <summary>Telos isn't in the Installed apps list, or its switch is greyed out</summary>
+        <p>Android may be blocking it as a restricted setting. See <a href="#restricted-settings">If Android blocks the switch</a> above.</p>
+      </details>
+
+      <details>
+        <summary>A card in Telos still shows Allow after I did the step</summary>
+        <p>Make sure you finished the step in Settings, then return to Telos and wait a moment. Telos re-reads your Settings every second while it is open. Check these three:</p>
+        <ul>
+          <li><strong>Accessibility access:</strong> Telos is <strong>On</strong> under Installed apps.</li>
+          <li><strong>Greyscale mode:</strong> <strong>Greyscale</strong> is the selected mode on the Colour correction screen.</li>
+          <li><strong>Correction shortcut:</strong> <strong>Use Accessibility gesture</strong> is ticked, with <strong>Swipe up with 2 fingers from bottom of screen</strong> selected, and Colour correction is the only feature assigned to it.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Telos says “Screen dimming is stuck”</summary>
+        <p>Something, often a force-stop, turned off Telos's Accessibility permission, and Telos can't turn it back on for you. Open <strong>Settings › Accessibility › Installed apps › Telos</strong> and turn it on again, as in <a href="#step-1">step 1</a>.</p>
+      </details>
+
+      <details>
+        <summary>My screen stays grey after closing or force-stopping Telos</summary>
+        <p>If Telos is force-stopped while true greyscale is on, the screen can stay grey until you turn Colour correction off yourself, and Telos can't undo that. Swipe up from the bottom of the screen with two fingers to switch it off, or open <strong>Settings › Accessibility › Vision enhancements › Colour correction</strong> and turn it off there. This trade-off is why true greyscale is optional.</p>
+      </details>
+
+      <details>
+        <summary>Greyscale turns on by itself when no session is running</summary>
+        <p>The shortcut you set up is a two-finger swipe up from the bottom of the screen, which is easy to do by accident. If Telos sees greyscale on with no session running, it switches it back off. If this keeps happening, let us know.</p>
+      </details>
+
+      <details>
+        <summary>I can't find “Use Accessibility gesture” in step 3</summary>
+        <p>Samsung names this option differently depending on how your device is navigated. If you use 3-button navigation, look for <strong>Accessibility button</strong> instead and choose that. If you still can't find a matching option, <a href="mailto:telosapp3@gmail.com?subject=Telos%20Samsung%20greyscale%20setup">email us</a> with your device model.</p>
+      </details>
+
+      <details>
+        <summary>Telos says Colour correction is already on with a different mode</summary>
+        <p>That is by design. Telos does not touch a Colour correction mode you may rely on, so true greyscale is not offered while it is set to something other than Greyscale.</p>
+      </details>
+
+      <details>
+        <summary>I want to remove the setup</summary>
+        <p>Turn off <strong>Settings › Accessibility › Installed apps › Telos</strong>, and set Colour correction back to how you like it. Telos goes back to its normal behaviour and offers true greyscale setup again when you open <strong>Settings › Permissions › True greyscale</strong>.</p>
+      </details>
+
+      <p>Still stuck? Email <a href="mailto:telosapp3@gmail.com?subject=Telos%20Samsung%20greyscale%20setup">telosapp3@gmail.com</a> with your device model and which step isn't working.</p>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">Telos is developed by Mohd Hussain Ahmed, India · <a href="../privacy.html">Privacy Policy</a> · <a href="../terms.html">Terms of Use</a> · Last updated 10 November 2026</div>
+  </footer>
+</body>
+</html>
